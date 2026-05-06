@@ -21,7 +21,7 @@ int main() {
     Foo f3{ .b{ 1 }, .c{ 2 } }; // 3
     Foo f4{ .a = 1, .b = 2 };   // 4
     Foo f5{ .a{ 1 }, .b = 2 };  // 5
-    Foo f6{ .b{ 1 }, .a{ 2 } }; // 6 wrong because it does not follor the order rule
+    Foo f6{ .b{ 1 }, .a{ 2 } }; // 6 wrong order rule
     Foo f7{ .b{ 1 } };          // 7
 
 
